@@ -8,4 +8,12 @@ console.log(this)
 // if this keyword inside function with 'use strict' mode  then it will return undefined AND without this keyword it will return window object
 
 DIFFERENCE B/W function and method 
+if you'll make a function as a part of an object then it will be called a method 
 
+const obj = {
+  a:10,
+  x: function x(){
+    console.log(this)    
+    }
+}
+  </h1> ALWAYS DEPENDS HOW THE FUNCTION IS CALLED</h1>
