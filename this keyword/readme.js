@@ -8,3 +8,4 @@ console.log(this)
 // if this keyword inside function with 'use strict' mode  then it will return undefined AND without this keyword it will return window object
 
 DIFFERENCE B/W function and method 
+
